@@ -210,47 +210,10 @@ Al abrir la hoja, el script agrega un menú con opciones para:
 7. Ejecuta `onOpen()` una vez para inicializar el menú.
 8. Configura el trigger de formulario para `onFormSubmit(e)`.
 
-## Seguridad antes de publicar este repo
-
-Antes de subir este proyecto a público:
-
-- No incluyas API keys
-- No incluyas IDs reales de Drive si no quieres exponer tu estructura
-- No subas datos reales de personas
-- No subas enlaces internos con permisos abiertos
-- Usa valores placeholder en toda la configuración sensible
-
-Ejemplo:
-
-```js
-ROOT_FOLDER_ID: "TU_ROOT_FOLDER_ID",
-TEMPLATE_SLIDES_ID: "TU_TEMPLATE_SLIDES_ID",
-REPORTES_ROOT_FOLDER_ID: "TU_REPORTES_ROOT_FOLDER_ID"
-```
 
 ## Limitaciones
 
 - Apps Script tiene límite de tiempo por ejecución
 - La calidad del OCR depende de la legibilidad del documento
-- Groq no procesa PDFs directamente
 - El sistema depende de una estructura consistente en nombres de columnas y archivos
 
-## Siguiente mejora sugerida
-
-- Separar configuración sensible en un archivo de ejemplo
-- Añadir `SETUP.md`
-- Añadir capturas del panel
-- Modularizar el script por archivos si crece más
-- Incluir pruebas sobre datos ficticios
-
-## Licencia
-
-Define aquí la licencia que quieras usar para el repositorio:
-
-- MIT, si quieres permitir reutilización amplia
-- Apache-2.0, si quieres una licencia abierta con más protección
-- Licencia propietaria, si solo quieres exhibirlo y no permitir uso libre
-
----
-
-Si publicas este repositorio como portafolio, conviene acompañarlo con capturas, un diagrama simple del flujo y un ejemplo de configuración sin datos reales.
